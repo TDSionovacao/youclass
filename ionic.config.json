@@ -1,0 +1,7 @@
+{
+  "name": "youclass",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
