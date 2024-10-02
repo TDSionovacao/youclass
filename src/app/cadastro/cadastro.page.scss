@@ -1,0 +1,83 @@
+/* Estilizando o container do formulário */
+.form-container {
+    margin-top: 40px;
+    padding: 0 20px;
+  }
+  
+  /* Estilo dos inputs personalizados */
+  .custom-input {
+    border: 2px solid #ff0000; /* Borda vermelha */
+    border-radius: 25px; /* Bordas arredondadas */
+    padding: 10px;
+    font-size: 18px;
+    color: #ff0000;
+    width: 100%;
+    text-align: center;
+  }
+  
+  ion-item {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para os inputs do formulário */
+  ion-input {
+    --padding-start: 16px;
+    --padding-end: 16px;
+    --color: #333; /* Cor do texto do input */
+    --background: white; /* Fundo branco */
+    --border-color: #ff0000;  /* Define a cor da borda como vermelha */
+    --border-radius: 25px;     /* Arredonda as bordas */
+    --border-width: 2px;       /* Define a largura da borda */
+    --padding-top: 3px;       /* Ajusta o espaço acima do campo */
+    --placeholder-color: #888; /* Cor do placeholder */
+  }
+
+  label {
+    padding: 0 10px; /* Adiciona espaço ao redor do texto do rótulo */
+  }
+  
+  /* Botão Continuar (vermelho com texto branco) */
+  ion-button {
+    --background: #ff0000;
+    --background-hover: #ff0000;
+    --background-activated: #ff0000;
+    --background-focused: #ff0000;
+  
+    --color: white;
+    --border-radius: 25px;
+    --border-color: #ff0000;
+    --border-style: solid;
+    --border-width: 2px;
+  
+    --box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
+  
+    --align-self: center;
+  
+    --padding-top: 10px;
+    --padding-bottom: 10px;
+    --padding-start: 20px;
+    --padding-end: 20px;
+  
+    width: 100%;
+  }
+  
+  /* Estilo do DatePicker */
+  ion-datetime {
+    --color: #333;
+    --border-radius: 25px;
+    --background: white;
+    --placeholder-color: #888;
+    --padding: 10px;
+  }
+  
+  /* Centralizando o texto do DatePicker */
+  ion-datetime .datetime-text {
+    text-align: center;
+  }
+  
+  /* Estilo dos botões na tela de cadastro */
+  .ion-text-center ion-button {
+    margin-top: 20px;
+    width: 100%;
+  }
+  

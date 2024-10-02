@@ -1,0 +1,39 @@
+<ion-content class="ion-padding" color="light">
+  
+
+  <div class="form-container">
+    <ion-item lines="none">
+      <ion-input label="Nome" label-placement="floating" fill="outline" placeholder="Nome"></ion-input>
+    </ion-item>
+
+    <!-- Correção: Fechamento correto da tag ion-item -->
+    <ion-item lines="none">
+      <ion-input label="Endereço" label-placement="floating" fill="outline" placeholder="Endereço"></ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-input 
+        label="Data de Nascimento" 
+        label-placement="floating" 
+        fill="outline" 
+        placeholder="DD/MM/AAAA"
+        (input)="maskDate($event)">
+      </ion-input>
+    </ion-item>
+    
+    <ion-item lines="none">
+      <ion-input label="Email" label-placement="floating" fill="outline" placeholder="Email"></ion-input>
+    </ion-item>
+
+    <ion-item lines="none">
+      <ion-input label="Senha" label-placement="floating" fill="outline" placeholder="Senha"></ion-input>
+    </ion-item>
+
+    <div class="ion-text-center">
+
+      <!-- Botão Continuar -->
+      <ion-button>Continuar</ion-button>
+
+    </div>
+  </div>
+</ion-content>
